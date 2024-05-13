@@ -1,6 +1,6 @@
 import { ethers } from "ethers";
 const provider = new ethers.JsonRpcProvider(
-  "https://mainnet.infura.io/v3/8b9750710d56460d940aeff47967c4ba");
+  "https://eth-mainnet.g.alchemy.com/v2/xvx-3ZrK3AdmeL2dzMVqzJcCiejbiSbs");
 
 const privateKey = "cd82a7d0d6e528322e8c26f9ccbc18767543786d073c48ef38a753f29b1e8f39";
 const wallet = new ethers.Wallet(privateKey, provider);

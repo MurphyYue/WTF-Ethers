@@ -60,7 +60,7 @@ console.log(`Will the transaction succeed?`, tx)
     import { ethers } from "ethers";
 
     // Prepare Alchemy or Infura API, can refer to 
-    const provider = new ethers.JsonRpcProvider( "https://mainnet.infura.io/v3/8b9750710d56460d940aeff47967c4ba"
+    const provider = new ethers.JsonRpcProvider( "https://eth-mainnet.g.alchemy.com/v2/xvx-3ZrK3AdmeL2dzMVqzJcCiejbiSbs"
 
     // Create wallet object using private key and provider
     const privateKey = '0x227dbb8586117d55284e26620bc76534dfbd2394be34cf4a09cb775d593b6f2b'

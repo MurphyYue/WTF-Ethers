@@ -51,7 +51,7 @@ contract.once("eventName", function)
   ```js
   import { ethers } from "ethers";
   // Connect to the mainnet provider
- const provider = new ethers.JsonRpcProvider(`https://mainnet.infura.io/v3/8b9750710d56460d940aeff47967c4ba`);
+ const provider = new ethers.JsonRpcProvider(`https://eth-mainnet.g.alchemy.com/v2/xvx-3ZrK3AdmeL2dzMVqzJcCiejbiSbs`);
   ```
 
 2. Declare the contract variables: We only care about the "Transfer" event of the USDT contract. To listen to this event, we need to include it in the ABI. If you're interested in other functions and events, you can find them on [etherscan](https://etherscan.io/address/0xdac17f958d2ee523a2206206994597c13d831ec7#code).
